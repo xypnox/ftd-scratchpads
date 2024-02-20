@@ -1,0 +1,41 @@
+-- import: fastn-community.github.io/doc-site as ds
+
+
+-- outpit:
+
+;; The variables
+
+;; -- integer $x: 10 works
+-- integer x: 10
+-- integer $y: *$x
+
+;; The component
+-- component outpit:
+
+-- ds.output:
+
+	-- ftd.row:
+	spacing.fixed.px: 10
+	color: $inherited.colors.text
+	
+		-- ftd.text: x:
+		-- ftd.integer: $x
+		
+	-- end: ftd.row
+
+	-- ftd.row:
+	spacing.fixed.px: 10
+	color: $inherited.colors.text
+	
+		-- ftd.text: y:
+		-- ftd.integer: $y
+		
+	-- end: ftd.row
+
+	-- ftd.text: I change y :)
+	$on-click$: $ftd.increment($a = $y)
+	color: $inherited.colors.text
+	
+-- end: ds.output
+
+-- end: outpit
