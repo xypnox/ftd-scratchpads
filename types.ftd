@@ -1,0 +1,103 @@
+;; These are comments, do not consider comments
+
+
+-- boolean is-monday: true
+
+-- boolean is-tuesday: false
+
+
+-- integer day-of-week: 1
+
+-- decimal pi: 3.14159
+
+
+-- string my-name: John Doe
+
+-- string long-multiline:
+
+This is a long string, and it can have multiple lines.
+
+It is a string that is over 80 characters long.
+
+It is a string that is over 80 characters long.
+
+;; Record is data structure rather than variable
+-- record person:
+caption name:
+
+-- person JohnOG: Jogn OG
+
+-- person JohnOG2:
+name: Jogn OG2
+
+;; -- record person2:
+;; name: caption 
+;; 
+;; 
+;; -- person2 JohnOG3: John OG3
+;; 
+;; -- person2 JohnOG4:
+;; name: John OG4
+;; 
+;; -- record person3:
+;; name: caption
+;; bio: body
+;; 
+;; -- person3 Johhny: John Doe
+;; 
+;; This be the body
+;; 
+;; -- person3 Jony:
+;; name: John Doe
+;; bio: This be the second body
+;; 
+;; -- person3 Jony2:
+;; name: John Doe
+;; 
+;; Body like this
+
+-- record person4:
+caption or body name:
+
+-- person4 JohnOG5: Jogn OG5
+
+-- person4 JohnOG6:
+name: Jogn OG6
+
+-- person4 JohnOG7:
+
+Jogn OG7
+
+;; -- record person5:
+;; name: caption or body 
+;; 
+;; -- person5 JohnOG8: Jogn OG8
+;; 
+;; -- person5 JohnOG9:
+;; name: Jogn OG9
+;; 
+;; -- person5 JohnOG10:
+;; 
+;; Jogn OG10
+
+
+
+;; -- ftd.text: $is-monday
+;; -- ftd.text: $is-tuesday
+;; -- ftd.text: $day-of-week
+;; -- ftd.text: $pi
+
+-- ftd.text: $my-name
+
+-- ftd.text: $long-multiline
+
+-- ftd.text: $JohnOG.name
+
+-- ftd.text: $JohnOG2.name
+
+-- ftd.text: $JohnOG5.name
+
+-- ftd.text: $JohnOG6.name
+
+-- ftd.text: $JohnOG7.name
+

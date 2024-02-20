@@ -1,7 +1,8 @@
--- import: fastn-community.github.io/doc-site as ds
-
+-- ds.page:
 
 -- outpit:
+
+-- end: ds.page
 
 ;; The variables
 

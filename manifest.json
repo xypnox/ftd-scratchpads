@@ -2,8 +2,13 @@
   "files": {
     "FASTN.ftd": {
       "name": "FASTN.ftd",
-      "checksum": "CA09C8984CA9E433C3843D2034C388FA8F2B67F309418AE70EC33C31B65A17EB",
-      "size": 377
+      "checksum": "C8912C0D2AB08EA3AF47A66832DA99A8C836B5FFE07978BF80DD10BAA2D3F22B",
+      "size": 442
+    },
+    "FASTN/ds.ftd": {
+      "name": "FASTN/ds.ftd",
+      "checksum": "1A4527E030AB0698974798BFDC63BDC047E3D8BF803F030F6B9A26B81F3AD559",
+      "size": 2352
     },
     "README.md": {
       "name": "README.md",
@@ -27,8 +32,8 @@
     },
     "bug1.ftd": {
       "name": "bug1.ftd",
-      "checksum": "1F92605834A0D731F7F9BF712EA53B817D3D54D5DA521C1995767E47D6335BC9",
-      "size": 590
+      "checksum": "F1D8B2488778DA882B507E19EA4BB0C165A86599331B5CECCE1CC3C71326CE55",
+      "size": 566
     },
     "favicon.ico": {
       "name": "favicon.ico",
@@ -37,8 +42,23 @@
     },
     "index.ftd": {
       "name": "index.ftd",
-      "checksum": "4BC807383923E3B145A39E7AC5940BB2B13E0D10257D67428615558CB06F3BE5",
-      "size": 108
+      "checksum": "3A62784223CFF61708DBDB7E0A85678BEBEF35B16EEF9E4842A5C9ADB0FA35CB",
+      "size": 95
+    },
+    "sidebar.ftd": {
+      "name": "sidebar.ftd",
+      "checksum": "72BD01299AED3A09FBBB8B28252C40913BA606290E05E557F93BC23A9878BE4C",
+      "size": 97
+    },
+    "types.ftd": {
+      "name": "types.ftd",
+      "checksum": "0B35B175B2C6EE6C51E9EF8514C0E83E837E55A5738204205969DE234BF63889",
+      "size": 1508
+    },
+    "uis.ftd": {
+      "name": "uis.ftd",
+      "checksum": "DD4E7D4573EF088E83D01D75E6CC8A445CF29A95D1DBA9113F44E710576A23EA",
+      "size": 94
     },
     "vercel.json": {
       "name": "vercel.json",
@@ -47,5 +67,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/xypnox/ftd-scratchpads/zip/refs/heads/main",
-  "checksum": "5D8429E379463CF8DA6DBB4F5C3DFBE2C174988FEA220C6A5F7DB8BE5781E62A"
+  "checksum": "A0738C187EEE1623A262B9B799B39862A4DB652B030F816988D283E59949931B"
 }

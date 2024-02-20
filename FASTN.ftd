@@ -8,3 +8,6 @@
 -- fastn.dependency: fastn-community.github.io/dark-flame-cs
 -- fastn.dependency: fastn-community.github.io/doc-site as ds
 -- fastn.dependency: fifthtry.github.io/fastn-typography as typo
+
+
+-- fastn.auto-import: fastn-community.github.io/doc-site as ds
