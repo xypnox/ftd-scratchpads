@@ -2,13 +2,8 @@
   "files": {
     "FASTN.ftd": {
       "name": "FASTN.ftd",
-      "checksum": "5909C8C5D32107165F14CB9C26B19C4D251B4A4F56630AC56B5D96B43B1FFBAC",
-      "size": 607
-    },
-    "FASTN/ds.ftd": {
-      "name": "FASTN/ds.ftd",
-      "checksum": "DBD13096047D31C76C64A11E8BC8A553987979CBE7FDCBEEE603620C8FC3277B",
-      "size": 2351
+      "checksum": "CA09C8984CA9E433C3843D2034C388FA8F2B67F309418AE70EC33C31B65A17EB",
+      "size": 377
     },
     "README.md": {
       "name": "README.md",
@@ -30,6 +25,11 @@
       "checksum": "A227CF22E798ACFB2D01B6352FC22A28047444F028AF05440C6CE6F9499C0EDF",
       "size": 15494
     },
+    "bug1.ftd": {
+      "name": "bug1.ftd",
+      "checksum": "1F92605834A0D731F7F9BF712EA53B817D3D54D5DA521C1995767E47D6335BC9",
+      "size": 590
+    },
     "favicon.ico": {
       "name": "favicon.ico",
       "checksum": "65056A1D6C6AAE6E3DC4626E29F4BD4B628B17A8E9CC1D3A5E8FE9F6743F306B",
@@ -37,13 +37,8 @@
     },
     "index.ftd": {
       "name": "index.ftd",
-      "checksum": "32532606DDF89B56B42BA173EEAC7F7E9006DEEC07ABF10F6ABE246DC0EC1482",
-      "size": 1190
-    },
-    "sidebar.ftd": {
-      "name": "sidebar.ftd",
-      "checksum": "98EA5E5D5540AA8CCFA6C4ABEE6C2D476F6E1310B6B7E8978E81F62368EFA035",
-      "size": 1281
+      "checksum": "4BC807383923E3B145A39E7AC5940BB2B13E0D10257D67428615558CB06F3BE5",
+      "size": 108
     },
     "vercel.json": {
       "name": "vercel.json",
@@ -52,5 +47,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/xypnox/ftd-scratchpads/zip/refs/heads/main",
-  "checksum": "9A19F89D3B6BCE91E093F63D5D80FED3BC09B4E56F77250CC8412477ED060147"
+  "checksum": "5D8429E379463CF8DA6DBB4F5C3DFBE2C174988FEA220C6A5F7DB8BE5781E62A"
 }

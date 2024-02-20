@@ -333,19 +333,52 @@ td {
     </style>
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-<body data-id="1"><div data-id="2" class="ft_column __w-1 __h-2"><div data-id="3" class="__rl-3 __w-4 __c-5">Welcome to doc-site
-<ul>
-<li><a href="/bug1">Bug1</a></li>
-</ul></div></div></body><style id="styles">
+<body data-id="1"><div data-id="2" class="ft_column __w-1 __h-2"><div data-id="3" class="ft_column __w-3 __pt-4"><div data-id="4" class="ft_column __w-5"><div data-id="5" class="__rl-6 __pl-7 __pr-8 __pt-9 __pb-10 __btlr-11 __btrr-12 __c-13 __bgc-14">Output</div></div><div data-id="6" class="ft_column __w-15 __pl-16 __pr-17 __pt-18 __pb-19 __bw-20 __br-21 __bc-22 __bgc-23"><div data-id="7" class="ft_row __c-24 __g-25"><div data-id="8">x:</div><div data-id="9">10</div></div><div data-id="10" class="ft_row __c-26 __g-27"><div data-id="11">y:</div><div data-id="12">10</div></div><div data-id="13" class="__cur-28 __c-29">I change y :)</div></div></div></div></body><style id="styles">
     .__w-1 { width: 100%; }
 	.__h-2 { height: 100%; }
-	.__rl-3 {  font-family: sans-serif; font-size: 18px; font-weight: 400; line-height: 30px; }
-	body.mobile .__rl-3 {  font-family: sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; }
-	.__w-4 { width: 100%; }
-	.__c-5 { color: #584b42 !important; }
-	body.dark .__c-5 { color: #a8a29e !important; }
-	.__c-5:visited { color: #584b42 !important; }
-	body.dark  .__c-5:visited { color: #a8a29e !important; }
+	.__w-3 { width: 100%; }
+	.__pt-4 { padding-top: 12px; }
+	.__w-5 { width: 100%; }
+	.__rl-6 {  font-family: sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; }
+	body.mobile .__rl-6 {  font-family: sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; }
+	.__pl-7 { padding-left: 10px; }
+	.__pr-8 { padding-right: 10px; }
+	.__pt-9 { padding-top: 3px; }
+	.__pb-10 { padding-bottom: 3px; }
+	.__btlr-11 { border-top-left-radius: 2px; }
+	.__btrr-12 { border-top-right-radius: 2px; }
+	.__c-13 { color: #584b42 !important; }
+	body.dark .__c-13 { color: #a8a29e !important; }
+	.__c-13:visited { color: #584b42 !important; }
+	body.dark  .__c-13:visited { color: #a8a29e !important; }
+	.__bgc-14 { background-color: #e7e7e4; }
+	body.dark .__bgc-14 { background-color: #18181b; }
+	.__w-15 { width: 100%; }
+	.__pl-16 { padding-left: 20px; }
+	.__pr-17 { padding-right: 20px; }
+	.__pt-18 { padding-top: 30px; }
+	.__pb-19 { padding-bottom: 30px; }
+	.__bw-20 { border-width: 1px; }
+	.__br-21 { border-radius: 2px; }
+	.__bc-22 { border-color: #584b42; }
+	body.dark .__bc-22 { border-color: #a8a29e; }
+	.__bgc-23 { background-color: #e7e7e4; }
+	body.dark .__bgc-23 { background-color: #18181b; }
+	.__c-24 { color: #584b42 !important; }
+	body.dark .__c-24 { color: #a8a29e !important; }
+	.__c-24:visited { color: #584b42 !important; }
+	body.dark  .__c-24:visited { color: #a8a29e !important; }
+	.__g-25 { gap: 10px; }
+	.__c-26 { color: #584b42 !important; }
+	body.dark .__c-26 { color: #a8a29e !important; }
+	.__c-26:visited { color: #584b42 !important; }
+	body.dark  .__c-26:visited { color: #a8a29e !important; }
+	.__g-27 { gap: 10px; }
+	.__cur-28 { cursor: pointer; }
+	.__c-29 { color: #584b42 !important; }
+	body.dark .__c-29 { color: #a8a29e !important; }
+	.__c-29:visited { color: #584b42 !important; }
+	body.dark  .__c-29:visited { color: #a8a29e !important; }
     </style><style>
 
 
@@ -2228,38 +2261,118 @@ font-family: fifthtry-github-io-manrope-font-Manrope }
   let __fastn_super_package_name__ = __fastn_package_name__;
   __fastn_package_name__ = "xypnox_github_io_ftd_scratchpads";
   try {
-    let parenti0 = fastn_community_github_io_doc_site__markdown(parent, inherited, {
-      body: "Welcome to doc-site\n\n- [Bug1](/bug1)"
-    });
+    let parenti0 = xypnox_github_io_ftd_scratchpads_bug1___outpit(parent, inherited);
   } finally {
     __fastn_package_name__ = __fastn_super_package_name__;
   }
 }
 global["main"] = main;
-let fastn_community_github_io_typography__markdown = function (parent, inherited, args)
+let fastn_community_github_io_doc_site__output = function (parent, inherited, args)
 {
   let __fastn_super_package_name__ = __fastn_package_name__;
   __fastn_package_name__ = "xypnox_github_io_ftd_scratchpads";
   try {
     let __args__ = {
-      id: null,
+      title: "Output",
+      output_container: fastn.mutableList([]),
     };
     inherited = fastn_utils.getInheritedValues(__args__, inherited, args);
     __args__ = fastn_utils.getArgs(__args__, args);
-    let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Text);
-    parenti0.setProperty(fastn_dom.PropertyKind.Role, inherited.get("types").get("copy_regular"), inherited);
-    parenti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.body, inherited);
-    parenti0.setProperty(fastn_dom.PropertyKind.Id, __args__.id, inherited);
+    let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Column);
     parenti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
-    parenti0.setProperty(fastn_dom.PropertyKind.Color, inherited.get("colors").get("text"), inherited);
+    parenti0.setProperty(fastn_dom.PropertyKind.PaddingTop, fastn_dom.Length.Px(12), inherited);
+    parenti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+      let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+      rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
+      rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+        let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+        rooti0.setProperty(fastn_dom.PropertyKind.Role, inherited.get("types").get("label_large"), inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.title, inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.PaddingHorizontal, fastn_dom.Length.Px(10), inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.PaddingVertical, fastn_dom.Length.Px(3), inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.BorderTopLeftRadius, fastn_dom.Length.Px(2), inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.BorderTopRightRadius, fastn_dom.Length.Px(2), inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.Color, inherited.get("colors").get("text"), inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.Background, fastn_dom.BackgroundStyle.Solid(inherited.get("colors").get("background").get("base")), inherited);
+      }
+      ]), inherited);
+    },
+    function (root, inherited) {
+      let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Column);
+      rooti0.setProperty(fastn_dom.PropertyKind.Width, fastn_dom.Resizing.FillContainer, inherited);
+      rooti0.setProperty(fastn_dom.PropertyKind.PaddingHorizontal, fastn_dom.Length.Px(20), inherited);
+      rooti0.setProperty(fastn_dom.PropertyKind.PaddingVertical, fastn_dom.Length.Px(30), inherited);
+      rooti0.setProperty(fastn_dom.PropertyKind.BorderWidth, fastn_dom.Length.Px(1), inherited);
+      rooti0.setProperty(fastn_dom.PropertyKind.BorderRadius, fastn_dom.Length.Px(2), inherited);
+      rooti0.setProperty(fastn_dom.PropertyKind.BorderColor, inherited.get("colors").get("text"), inherited);
+      rooti0.setProperty(fastn_dom.PropertyKind.Background, fastn_dom.BackgroundStyle.Solid(inherited.get("colors").get("background").get("base")), inherited);
+      rooti0.setProperty(fastn_dom.PropertyKind.Children, __args__.output_container, inherited);
+    }
+    ]), inherited);
     return parenti0;
   } finally {
     __fastn_package_name__ = __fastn_super_package_name__;
   }
 }
-global["fastn_community_github_io_typography__markdown"] = fastn_community_github_io_typography__markdown;
-let fastn_community_github_io_doc_site__markdown = global["fastn_community_github_io_typography__markdown"];
-global["fastn_community_github_io_doc_site__markdown"] = fastn_community_github_io_doc_site__markdown;
+global["fastn_community_github_io_doc_site__output"] = fastn_community_github_io_doc_site__output;
+fastn_utils.createNestedObject(global, "xypnox_github_io_ftd_scratchpads_bug1___x", 10);
+fastn_utils.createNestedObject(global, "xypnox_github_io_ftd_scratchpads_bug1___y", fastn_utils.clone(global.xypnox_github_io_ftd_scratchpads_bug1___x));
+let xypnox_github_io_ftd_scratchpads_bug1___outpit = function (parent, inherited, args)
+{
+  let __fastn_super_package_name__ = __fastn_package_name__;
+  __fastn_package_name__ = "xypnox_github_io_ftd_scratchpads";
+  try {
+    let __args__ = {
+    };
+    inherited = fastn_utils.getInheritedValues(__args__, inherited, args);
+    __args__ = fastn_utils.getArgs(__args__, args);
+    let parenti0 = fastn_community_github_io_doc_site__output(parent, inherited, {
+      output_container: fastn.mutableList([function (root, inherited) {
+        let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
+        rooti0.setProperty(fastn_dom.PropertyKind.Color, inherited.get("colors").get("text"), inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Px(10)), inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+          let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+          rooti0.setProperty(fastn_dom.PropertyKind.StringValue, "x:", inherited);
+        },
+        function (root, inherited) {
+          let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Integer);
+          rooti0.setProperty(fastn_dom.PropertyKind.IntegerValue, global.xypnox_github_io_ftd_scratchpads_bug1___x, inherited);
+        }
+        ]), inherited);
+      },
+      function (root, inherited) {
+        let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Row);
+        rooti0.setProperty(fastn_dom.PropertyKind.Color, inherited.get("colors").get("text"), inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.Spacing, fastn_dom.Spacing.Fixed(fastn_dom.Length.Px(10)), inherited);
+        rooti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
+          let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+          rooti0.setProperty(fastn_dom.PropertyKind.StringValue, "y:", inherited);
+        },
+        function (root, inherited) {
+          let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Integer);
+          rooti0.setProperty(fastn_dom.PropertyKind.IntegerValue, global.xypnox_github_io_ftd_scratchpads_bug1___y, inherited);
+        }
+        ]), inherited);
+      },
+      function (root, inherited) {
+        let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
+        rooti0.setProperty(fastn_dom.PropertyKind.StringValue, "I change y :)", inherited);
+        rooti0.addEventHandler(fastn_dom.Event.Click, function () {
+          ftd.increment({
+            a: global.xypnox_github_io_ftd_scratchpads_bug1___y,
+          }, rooti0);
+        });
+        rooti0.setProperty(fastn_dom.PropertyKind.Color, inherited.get("colors").get("text"), inherited);
+      }
+      ])
+    });
+    return parenti0;
+  } finally {
+    __fastn_package_name__ = __fastn_super_package_name__;
+  }
+}
+global["xypnox_github_io_ftd_scratchpads_bug1___outpit"] = xypnox_github_io_ftd_scratchpads_bug1___outpit;
 fastn_dom.codeData.availableThemes["coldark-theme.dark"] = "code-theme-9A3284FD117DFF7CFD432FF860A5E14169FA592BC3DA4F5E8A6975143F5EA07F.css";
 fastn_dom.codeData.availableThemes["coldark-theme.light"] = "code-theme-99CD7B013C96C4632F0AEA39AC265387B814AE85A7D33666A4AE4BEFF59016D0.css";
 fastn_dom.codeData.availableThemes["coy-theme"] = "code-theme-B3AEA322EADEDA61F0E219845A0E9C8E73F6345E49362B46E6F52CEE40471248.css";
